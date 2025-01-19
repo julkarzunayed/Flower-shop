@@ -79,9 +79,71 @@ main{
     /* border: solid 1px salmon; */
 }
 
+/* feature card Styles */
+.feature-card-container{
+    /* gap: 20px; */
+    justify-content: space-between;
+    /* border: solid 1px salmon; */
+    /* flex-direction: column; */
+}
 
+.card .image-box{
+    width:460px;
+    height: 538px;
+    /* border: solid 1px salmon; */
+    /* display: flex; */
+    position: relative;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50% ;
+    /* justify-content: center;
+    align-items: center; */
+    /* padding-top: 50px; */
+}
 
+.card{
+    display: flex;
+    height: 605px;
+    flex-direction: column;
+    justify-content: center;
 
+    text-align: center;
+}
+
+.card .image-box img{
+    /* width: 100%; */
+    /* border: solid 1px salmon; */
+}
+#img-1{
+    width: 310px;
+    height: 428px;
+    position: absolute;
+    bottom: 0;
+    left:76px ;
+    /* margin-bottom: 10px; */
+}
+#img-2{
+    width: 370px;
+    height: 370px;
+    position: absolute;
+    bottom: 51px;
+    left:47px ;
+}
+#img-3{
+    width: 314px;
+    height: 471px;
+    position: absolute;
+    bottom: 0;
+    left:75px ;
+}
+#img-box-1{
+    background-color: #A7216215;
+}
+#img-box-2{
+    background-color: #0597A015;
+}
+#img-box-3{
+    background-color: #477D1115;
+}
 @media screen and (max-width: 576px) {
     .banner{
         flex-direction: column-reverse;
